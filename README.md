@@ -18,7 +18,7 @@ redoc-cli需要将bundle方法导出，需要修改源码，就直接把这个�
 
 ![1](./1.png)
 
-在这里自定义导出html的样式【具体参加redoc options对象 https://www.npmjs.com/package/redoc#redoc-options-object】
+在这里自定义导出html的样式【具体见redoc options对象 https://www.npmjs.com/package/redoc#redoc-options-object】
 
 ![2](./2.png)
 
