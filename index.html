@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * data:  'unsafe-eval' 'unsafe-inline'; worker-src blob:;">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src * data:  'unsafe-eval' 'unsafe-inline'; worker-src blob:;" >
+  <title>API文档生成工具</title>
+</head>
+
+<body>
+  <h2>API文档生成工具</h2>
+  <div id="drag-file" style="width: 100%; height: 100px; border: 1px solid #c5c5c5;text-align: center;">
+    <p>拖拽json/yaml文件到此处</p>
+</div>
+
+<script src="./logic.js">
+</script>
+
+</body>
+
+</html>
