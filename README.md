@@ -5,6 +5,7 @@ redoc 是封装了redoc-cli的electron app，用于将符合openapi规范的json
 > 本人前端技术较差，不会写界面
 #### 软件架构
 没啥架构，就是一个组内使用的小工具，权当练手了
+
 redoc-cli需要将bundle方法导出，需要修改源码，就直接把这个包拷贝出来改了
 
 
